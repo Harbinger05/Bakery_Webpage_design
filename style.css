@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans"
+}
+
+/* HEADER */
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 16%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: bisque; */
+    background-color: #9C634F;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    color:#F0D7A7;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 16%;
+}
+
+.btn {
+    background-color: rgb(245, 213, 165);
+    padding: 5px 15px;
+    font-size: 18px;
+    border: none;
+    border-style: solid;
+    cursor: pointer;
+    margin: 7px;
+}
+
+/* MAIN */
+.left-side-text{
+    background-color:#eee1b885;
+    height: 55vh;
+    width: 55vw;
+}
+
+.right-side-banner{
+    background-color: sandybrown;
+    height: 55vh;
+    width: 45vw;
+}
+
+.fullbanner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right-side-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.para-one{
+    font-size: 25px;
+    margin-top: 26px;
+    margin-left: 142px;
+    width: 34vw;
+    /* color:#bd6c51; */
+    color: black;
+}
+
+.para-two{
+    font-size: 50px;
+    margin-top: 26px;
+    margin-left: 231px;
+    font-weight: bold;
+    width: 24vw;
+    color:#c16140 ;
+}
+
+.buy{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c16140;
+    font-weight: bold;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.products{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-products{
+    /* background-color:#f0e0af; */
+    background-color: rgb(235, 201, 158);
+    text-align: center;
+}
+
+.top-products h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 16%;
+    cursor: pointer; 
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.shelf-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discount{
+    background-color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.discount img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.price-off{
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: rgb(244, 158, 0);
+}
+
+.learn{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-style: solid;
+    cursor: pointer;
+    background-color: rgb(245, 213, 165);
+}
+
+.about-us{
+    height: 53vh;
+    width: 100%;
+    /* background-color: #F0D7A7; */
+    background-color: #d18262;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us-text h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 16%;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.about-us-text p{
+    font-size: 18px;
+    width: 39vw;
+    margin-top: 20px;
+}
+
+.more-stuff{
+    background-color: rgb(235, 201, 158);
+    height: 46vh;
+    width: 100%;
+}
+
+.cake-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.secondnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(235, 201, 158) ;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-style: solid;
+    cursor: pointer;
+    background-color:#c16140;
+    margin: 10px;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9C634F;
+    height: 20vh;
+    font-size: 25px;
+}
+
+
+
+
+
